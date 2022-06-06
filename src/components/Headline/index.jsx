@@ -6,7 +6,7 @@ export function Headline(props) {
   return (
     <div>
         <h1 className={classes.title}>
-          Hello <a href="https://nextjs.org"> {props.page} Page</a>
+          <a href="https://nextjs.org"> {props.page} Page</a>
         </h1>
 
         <p className={classes.description}>
